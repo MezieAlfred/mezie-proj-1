@@ -373,7 +373,7 @@ background: white;
     background: #3f3f3f;
 }
 /*--------End footer-----------*/
-@media (max-width: 768px){
+@media (max-width: 720px){
     .navbar{
         height: auto;
         flex-direction: column;
@@ -398,13 +398,13 @@ background: white;
     }
     .col-2 img{
        position: relative; 
-       right: 80px;
+       right: 110px;
        width: 400px;
 
     }
     h2.title{
         position: relative; 
-       right: 170px;
+       right: 150;
        padding-top: 30px;
        white-space: nowrap;
     }
@@ -413,25 +413,39 @@ background: white;
        right: 100px;
        display: inline-block;
     }
-
+    .banner-content h1{
+        text-transform: uppercase;
+        line-height: 65px;
+        text-shadow: 0 0 3px white;
+        font-size: 80px;
+        padding-top: 40px;
+    }
+    .banner-content h1 span{
+        color: goldenrod;
+        position: relative;
+        top: 10px;
+    }
     .diff-services{
     display: block;
     width: 300%;
     position: relative;
     left: 40px;
     }
+    .diff-services .diff-services-items p{
+        padding-bottom: 20px;
+    }
     .col-3{
         flex: 100%;
         max-width: 100%;
     }
     .form_wrapper .form_input textarea{
-        width: 450px;
-        height: 100px;
+        width: 420px;
+        height: 120px;
         position: relative;
         right: 10px;
     }
     .form_wrapper .form_input input[type="text"]{
-        width: 450px;
+        width: 420px;
         position: relative;
         right: 10px;
     }

@@ -434,6 +434,9 @@ background: white;
     .diff-services .diff-services-items p{
         padding-bottom: 20px;
     }
+    .diff-services .diff-services-items {
+        margin-bottom: 30px;
+    }
     .col-3{
         flex: 100%;
         max-width: 100%;

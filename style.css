@@ -373,7 +373,7 @@ background: white;
     background: #3f3f3f;
 }
 /*--------End footer-----------*/
-@media (max-width: 720px){
+@media (max-width: 768px){
     .navbar{
         height: auto;
         flex-direction: column;

@@ -374,9 +374,13 @@ background: white;
 }
 /*--------End footer-----------*/
 @media (max-width: 720px){
-body{
-    overflow-x: hidden;
-}
+body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
     .navbar{
         height: auto;
         flex-direction: column;
